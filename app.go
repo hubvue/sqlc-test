@@ -14,7 +14,7 @@ import (
 func run() error {
 	ctx := context.Background()
 
-	db, err := sql.Open("mysql", "root:GOaway0806!@tcp(49.232.212.40:3306)/sqlctest")
+	db, err := sql.Open("mysql", "root:xxx@tcp(49.232.212.40:3306)/sqlctest")
 	if err != nil {
 		return err
 	}
