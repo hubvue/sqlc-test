@@ -13,3 +13,5 @@ INSERT INTO authors (
   ?, ?
 );
 
+-- name: CountAuthors :one
+SELECT COUNT(*) FROM authors;
